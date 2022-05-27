@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>food website</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    
+    <!-- header section starts      -->
+    
+    <header>
+    
+        <a href="#" class="logo"><i class="fas fa-utensils"></i>Resturant</a>
+    
+        <nav class="navbar">
+            <a class="active" href="homa.html">home</a>
+            <a href="dishes.html">dishes</a>
+            <a href="about.html">about</a>
+            <a href="menu.html">menu</a>
+        
+            <a href="signup.html">sign up</a>
+        </nav>
+    
+        <div class="icons">
+            <i class="fas fa-bars" id="menu-bars"></i>
+            <i class="fas fa-search" id="search-icon"></i>
+       
+        </div>
+    
+    </header>
+    
+    <!-- header section ends-->
+    
+    <!-- search form  -->
+    
+    <form action="" id="search-form">
+        <input type="search" placeholder="search here..." name="" id="search-box">
+        
+        <i class="fas fa-times" id="close"></i>
+    </form>
+    <section class="signup" id="signup">
+
+        <h3 class="sub-heading"> sign up now </h3>
+    
+        <form action="">
+    
+            <div class="inputBox">
+                <div class="input">
+                    <span>your first name</span>
+                    <input type="text" style="text-transform: capitalize;"  id="name" placeholder="enter your first name" required>
+                    <span id = "message3" style="color:red"> </span> <br><br>
+                </div>
+                <div class="input">
+                    <span>your last name</span>
+                    <input type="text" style="text-transform: capitalize;" id="name" placeholder="enter your last name" required>
+                    <span id = "message3" style="color:red"> </span> <br><br>
+                </div>
+                
+               
+            </div>
+            <br>
+            <div class="inputBox">
+                <div class="input">
+                    <span>enter your e-mail</span>
+                    <input type="email" placeholder="enter your email" required>
+                </div>
+                <div class="radio">
+                    <span>your gender </span>
+                    <br>
+                   <label>  male:</label> <input type="radio" checked="checked" name="sex" value="male">
+                   <label> female:</label><input type="radio" name="sex" value="female">
+             
+                
+                </div>
+                
+               
+            </div>
+            <div class="inputBox">
+                <div class="input">
+                    <span>your number</span>
+                    <input type="number" placeholder="enter your number" required>
+                    
+                    
+                </div>
+                
+                <div class="input">
+                    <span>password</span>
+                    <input type="password" placeholder="password here.." id="pas" required >
+                    
+                    <input type="checkbox" onclick="myfunction()">
+                    <span id = "message1" style="color:red"> </span> <br><br>
+                </div>
+            </div>
+            
+            <div class="inputBox">
+                <div class="input">
+                    <span>your address</span>
+                    <textarea name="" placeholder="enter your address" id="" cols="30" rows="10" required></textarea>
+                </div>
+                <div class="input">
+                    <span>your favourit dishes</span>
+                    <textarea name="" placeholder="your favourit dishes" id="" cols="30" rows="10"></textarea>
+                </div>
+            </div>
+    
+            <input type="submit" value="signup" class="btn" onclick="validate()">
+            
+    
+        </form>
+    
+    </section>
+    
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>locations</h3>
+            <a href="#">Nasr city</a>
+            <a href="#">EL-Shrouk</a>
+            <a href="#">EL-Obour</a>
+            <a href="#">Ain shams</a>
+            <a href="#">Giza</a>
+        </div>
+
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#home">home</a>
+            <a href="#dishes">dishes</a>
+            <a href="#about">about</a>
+            <a href="#menu">menu</a>
+            <a href="#signup">sign up</a>
+        </div>
+
+        <div class="box">
+            <h3>contact info</h3>
+            <a href="#">01234567824</a>
+            <a href="#">01122334455</a>
+            <a href="#">abcd@gmail.com</a>
+            <a href="#">aabbcc@gmail.com</a>
+            <a href="#">Cairo, Egypt</a>
+        </div>
+
+        <div class="box">
+            <h3>follow us</h3>
+            <a href="https://www.facebook.com/" target="_blank">facebook</a>
+            <a href="https://www.twitter.com/" target="_blank">twitter</a>
+            <a href="https://www.instagram.com/" target="_blank">instagram</a>
+            
+        </div>
+
+    </div>
+
+</section>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
+        
